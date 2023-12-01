@@ -1,7 +1,4 @@
-
-# Illuvium NFT console app
-
-## Disclaimer
+# CLI console app to work with NFT Wallet
 
 Data structures that I have used are strictly linked for the Task. My solution is focused on the ability to efficiently execute 3 types of tasks:
 - Persist information about ownership relationshop between imaginary NFT token ids and NFT wallet addresses provided in the task
@@ -11,7 +8,7 @@ Data structures that I have used are strictly linked for the Task. My solution i
 
 I also tried to create the solution to fit the tight deadlines.
 
-In case task would change (or I misunderstood the task), I would also change the solution. For example, if we need data integrity validation, I would probably go with some other ideas (like Merkle Trees used in the industry).
+There are also a few things I skip and maybe return to it later. For example, if we need data integrity validation, I would probably go with some other ideas (like Merkle Trees used in the industry).
 
 # Prerequisites
 
@@ -80,7 +77,7 @@ Wallet 0x3000000000000000000000000000000000000000 holds 2 Tokens:
 0xB000000000000000000000000000000000000000 
 0xC000000000000000000000000000000000000000 
 
->Illuvium.Nft.App -—reset 
+>Illuvium.Nft.App -â€”reset 
 Program was reset 
 
 >Illuvium.Nft.App --wallet 0x3000000000000000000000000000000000000000
