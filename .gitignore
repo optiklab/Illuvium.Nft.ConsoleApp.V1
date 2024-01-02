@@ -1,0 +1,57 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+.vs
+Debug
+*.vcxproj.user
+
+#IDEs
+.idea
+
+# Visual Studio and VSCode
+.vs
+obj
+Debug
+Release
+packages
+x64
+vscode
+build
+out
+*.vcxproj.user
+
+# MacOS dependecies
+.DS_Store
+
+# Windows
+Thumbs.db
