@@ -1,7 +1,7 @@
-﻿using Illuvium.Nft.App.Models;
-using Illuvium.Nft.App.Repository;
+﻿using Nft.App.Models;
+using Nft.App.Repository;
 
-namespace Illuvium.Nft.Tests
+namespace Nft.Tests
 {
     internal class FileSystemMock : IFileSystem
     {

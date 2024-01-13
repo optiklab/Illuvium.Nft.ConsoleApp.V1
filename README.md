@@ -29,19 +29,19 @@ The application will show you a general help how to use it and list the availabl
 
 # Commands
 
->Illuvium.Nft.App --help
+>Nft.App --help
 Description:
-  Illuvium app to work with NFT tokens.
+  Wallet CLI app to work with NFT tokens.
 
 Usage:
-  Illuvium.Nft.App [command] [options]
+  Nft.App [command] [options]
 
 Options:
   --version       Show version information
   -?, -h, --help  Show help and usage information
 
 Commands:
-  --read-file <file>    Reads transactions from the ?le in the speci?ed location.
+  --read-file <file>    Reads transactions from the specified location.
   --read-inline <json>  Reads either a single json element, or an array of json elements representing transactions as an argument.
   --nft <tokenId>       Returns ownership information for the nft with the given id.
   --wallet <Address>    Lists all NFTs currently owned by the wallet of the given address.
@@ -51,36 +51,36 @@ Commands:
 
 There is transactions.json comes as an example file with list of transactions to quickly resume the state (for testing). Execute following commands:
 
->Illuvium.Nft.App --read-file transactions.json 
+>Nft.App --read-file transactions.json 
 Read 5 transaction(s) 
 
->Illuvium.Nft.App --nft 0xA000000000000000000000000000000000000000
+>Nft.App --nft 0xA000000000000000000000000000000000000000
 Token 0xA000000000000000000000000000000000000000 is not owned by any wallet 
 
->Illuvium.Nft.App --nft 0xB000000000000000000000000000000000000000
+>Nft.App --nft 0xB000000000000000000000000000000000000000
 Token 0xA000000000000000000000000000000000000000 is owned by 0x3000000000000000000000000000000000000000 
 
->Illuvium.Nft.App --nft 0xC000000000000000000000000000000000000000
+>Nft.App --nft 0xC000000000000000000000000000000000000000
 Token 0xC000000000000000000000000000000000000000 is owned by 0x3000000000000000000000000000000000000000 
 
->Illuvium.Nft.App --nft 0xD000000000000000000000000000000000000000
+>Nft.App --nft 0xD000000000000000000000000000000000000000
 Token 0xA000000000000000000000000000000000000000 is not owned by any wallet 
 
->Illuvium.Nft.App --read-inline  "{ \"Type\": \"Mint\", \"TokenId\": \"0xD000000000000000000000000000000000000000\", \"Address\": \"0x1000000000000000000000000000000000000000\" }"
+>Nft.App --read-inline  "{ \"Type\": \"Mint\", \"TokenId\": \"0xD000000000000000000000000000000000000000\", \"Address\": \"0x1000000000000000000000000000000000000000\" }"
 Read 1 transaction(s) 
 
->Illuvium.Nft.App --nft 0xD000000000000000000000000000000000000000
+>Nft.App --nft 0xD000000000000000000000000000000000000000
 Token 0xA000000000000000000000000000000000000000 is owned by 0x1000000000000000000000000000000000000000 
 
->Illuvium.Nft.App --wallet 0x3000000000000000000000000000000000000000
+>Nft.App --wallet 0x3000000000000000000000000000000000000000
 Wallet 0x3000000000000000000000000000000000000000 holds 2 Tokens: 
 0xB000000000000000000000000000000000000000 
 0xC000000000000000000000000000000000000000 
 
->Illuvium.Nft.App -—reset 
+>Nft.App -—reset 
 Program was reset 
 
->Illuvium.Nft.App --wallet 0x3000000000000000000000000000000000000000
+>Nft.App --wallet 0x3000000000000000000000000000000000000000
 Wallet 0x3000000000000000000000000000000000000000 holds no Tokens 
 
 # External dependencies

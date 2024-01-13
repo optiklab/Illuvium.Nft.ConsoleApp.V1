@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using Illuvium.Nft.App;
-using Illuvium.Nft.App.Cli;
+using Nft.App;
+using Nft.App.Cli;
 using Xunit;
 
-namespace Illuvium.Nft.Tests
+namespace Nft.Tests
 {
     public class ConsoleOutputHandlersTests
     {

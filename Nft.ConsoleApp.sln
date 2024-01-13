@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illuvium.Nft.App", "src\Illuvium.Nft.App\Illuvium.Nft.App.csproj", "{56BA282D-687A-451E-8F62-6A166D467AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nft.App", "src\Nft.App\Nft.App.csproj", "{56BA282D-687A-451E-8F62-6A166D467AA0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Illuvium.Nft.Tests", "tests\Illuvium.Nft.Tests.csproj", "{88539442-F29A-46D8-A3EA-D2A9FA640E96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nft.Tests", "tests\Nft.Tests.csproj", "{88539442-F29A-46D8-A3EA-D2A9FA640E96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F248750E-6FC5-4E01-B70B-B92FAE47DE24}"
 	ProjectSection(SolutionItems) = preProject
